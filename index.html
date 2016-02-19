@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Load the Paper.js library -->
+<link href="css/main.css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/paper-full.min.js"></script>
+<script type="text/javascript" src="js/rhill-voronoi-core.min.js"></script>
+<!-- Define inlined PaperScript associate it with myCanvas -->
+<script type="text/paperscript" src="js/voronoi.js" canvas="myCanvas">
+
+</script>
+</head>
+<body>
+    <div class="canvasWrapper">
+	   <canvas class='canvas' id="myCanvas" disabled resize></canvas>
+     </div>
+    <button class="stepBack">Remove Last Point</button>
+    <button class="clear">Clear</button>
+</body>
+</html>
