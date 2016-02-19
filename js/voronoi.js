@@ -59,7 +59,7 @@ function createPath(points, center) {
 
   var path = new Path();
   path.strokeColor = '#000000';
-  var segments = path.segments;
+  var segments = path.segments;git
   path.strokeWidth = 5;
   path.closed = true;
   path.fillColor = 'white';
